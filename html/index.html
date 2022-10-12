@@ -1,34 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body background="../html/pic/nen-hoa-hong.jpg">
-    <div style="text-align: center; color: red;">
-        <h1>  hop Hoa tươi Hạnh Phúc</h1>
-    </div>
-    <div>
-        <h3 style="background-color: pink; ;">Giới thiệu</h3>
-        <p>
-        Thành lập ngày 01/07/2014 <br> 
-        Chuyên cung cấp các loại hoa tươi <br> 
-        Có trên 20 cửa hàng bán lẻ tại TP.HCM <br>
-        Nhận kết giỏ hoa theo yêu cầu của khách hàng 
-        </p>
-    </div>
-    <div>
-        <h3>Liên hệ</h3>
-        <p>
-        Điện thoại: 84-08-8351056 <br>
-        Địa chỉ: 245 Nguyễn Văn Cừ Q5, TP.HCM <br> 
-        </p>
-    </div>
-    <h5>Copyright:  Công Ty Tin Hoc ABC</h5>
-    <div style="margin: 1cm cm 3cm 4cm;">
-        <img src="../html/pic/binh-hoa.jpg" alt=""> 
-     </div>
-</body>
+<html>
+    <head>
+        <title> BTTH 05 </title>
+    </head>
+    <style>
+        @font-face {
+            font-family: Font-Head;
+            src: url(./fonts/UTM\ Wedding\ K_T.ttf);
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-family: Font-Head;
+            color:white;
+            text-shadow: 2px 0 pink, -2px 0 pink, 0 2px pink, 0 -2px pink,
+               1px 1px pink, -1px -1px pink, 1px -1px pink, -1px 1px pink;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: url(./hinh/nen-hoa-hong.jpg) no-repeat;
+            background-repeat: no-repeat;
+            background-size: 65%;
+            background-position: 335px 35px;
+        }
+        img.hoa {
+            float:left;
+            width:25%;
+            height:25%;
+            border-right: solid;
+            border-width: 1em;
+            border-color: white;
+        }
+        p {
+            margin-left: 250px;
+            font-size: 0.8em;
+        }
+    </style>
+    <body>
+        <div>
+            <h1  align="center"> Shop Hoa tươi Hạnh Phúc </h1>
+        </div>
+        <div>
+            <img class="hoa" src="./hinh/binh-hoa.jpg">
+            <p> 1. 
+                <mark style="background-color:palevioletred"><b style="color:white;">Giới thiệu</b></mark><br>
+                <img src="./hinh/bullet-hoa-tim.png" style="width:2%;height:2%;margin-left:25px;"> Thành lập ngày 01/07/2014<br>
+                <img src="./hinh/bullet-hoa-tim.png" style="width:2%;height:2%;margin-left:25px;"> Chuyên cung cấp các loại hoa tươi<br>
+                <img src="./hinh/bullet-hoa-tim.png" style="width:2%;height:2%;margin-left:25px;"> Có trên 20 cửa hàng bán lẻ tại TP.HCM <br>
+                <img src="./hinh/bullet-hoa-tim.png" style="width:2%;height:2%;margin-left:25px;"> Nhận kết giỏ hoa theo yêu cầu của khách hàng <br>
+            </p>
+            <hr width="400px" size="1px" color="black" align="left">
+            <p> 2.
+                <mark style="background-color:palevioletred"><b style="color:white;">Liên hệ</b></mark><br>
+                <img src="./hinh/bullet-tron-hong.png" style="width:1.5%;height:1.5%;margin-left:25px;"> Địa chỉ: <b>245 Nguyễn Văn Cừ Q5, TP.HCM</b><br>
+                <img src="./hinh/bullet-tron-hong.png" style="width:1.5%;height:1.5%;margin-left:25px;"> Điện thoại: 84-08-8351056 <br>
+                <img src="./hinh/bullet-tron-hong.png" style="width:1.5%;height:1.5%;margin-left:25px;"> Fax: (08)62619416 (Ext. 115)<br>
+            </p>
+            <p style="font-size:0.5em;"> &copy;<i>Copyright: <span style="color:red;">Công Ty Tin Học</span></i></p> 
+        </div>
+    </body>
 </html>
